@@ -24,8 +24,8 @@ class PostListItem extends StatelessWidget {
         subtitle: Text(post.body),
         onTap: () {
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Post ID: ${post.title}')),
-          ); // Please Use post.id to show post id
+            SnackBar(content: Text('Post Title: ${post.title}')),
+          ); // Please Use post.id to show post id & change the String to ID
         },
       ),
     );
